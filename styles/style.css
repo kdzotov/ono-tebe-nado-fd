@@ -43,7 +43,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px 100px 50px;
+  padding: 95px 50px 95px 50px;
 }
 
 .header__list {
@@ -151,6 +151,16 @@ body {
   padding: 12px 32px;
   color: white;
   background-color: transparent;
+
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* lots */
