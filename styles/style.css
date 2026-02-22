@@ -219,6 +219,7 @@ body {
 }
 
 .lots__look-more-link {
+  display: inline-block;
   margin: 30px 40px;
   line-height: 100%;
 }
@@ -273,7 +274,6 @@ body {
   line-height: 24px;
 
   line-height: 24px;
-  letter-spacing: 0%;
   letter-spacing: 0%;
 }
 
