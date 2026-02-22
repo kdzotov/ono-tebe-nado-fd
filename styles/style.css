@@ -1,6 +1,6 @@
 /* root class */
 :root {
-  --bg-default: #6c757d;
+  --bg-default: rgb(108, 117, 125);
 }
 html {
   scroll-behavior: smooth;
