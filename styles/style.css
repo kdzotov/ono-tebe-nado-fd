@@ -111,26 +111,22 @@ body {
   line-height: 115%;
   letter-spacing: 30%;
   text-transform: uppercase;
+}
 
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.aligned-text {
+  display: block;
 }
 
 .aligned-text_left {
-  align-self: flex-start;
+  text-align: start;
 }
 
 .aligned-text_center {
-  align-self: center;
-  position: relative;
-  left: 25px;
+  text-align: center;
 }
 
 .aligned-text_right {
-  align-self: flex-end;
-  position: relative;
-  left: 30px;
+  text-align: end;
 }
 
 .cover__description {
