@@ -92,6 +92,11 @@ body {
 /* cover */
 .cover {
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 106px;
   min-height: 757px;
   margin-bottom: 180px;
   padding: 165px 50px 50px 50px;
@@ -103,13 +108,13 @@ body {
 .cover__title {
   position: relative;
   z-index: 1;
-  margin-bottom: 106px;
   font-weight: 700;
   font-size: 100px;
   font-style: Bold;
 
-  line-height: 115%;
+  line-height: 114.99999999999999%;
   letter-spacing: 30%;
+
   text-transform: uppercase;
 }
 
@@ -118,15 +123,17 @@ body {
 }
 
 .aligned-text_left {
-  text-align: start;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .aligned-text_center {
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .aligned-text_right {
-  text-align: end;
+  text-align: right;
 }
 
 .cover__description {
